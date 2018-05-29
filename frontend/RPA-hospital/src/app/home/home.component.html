@@ -1,0 +1,15 @@
+<div class="home-page">
+  <div class="banner" *showAuthed="false">
+    <div class="container">
+      <h1 class="logo-font">SmartHospitals</h1>
+      <p>Hospitals management tool.</p>
+    </div>
+  </div>
+  <div class="container page loginContainer">
+    <input  style="margin-bottom:20px" placeholder="Email" class="form-control form-control-lg" type="text" />
+    <input  style="margin-bottom:20px" placeholder="Password" class="form-control form-control-lg" type="password" />
+    <button class="btn btn-lg btn-info pull-xs-right" (click)="submit()">
+      Submit
+    </button>
+  </div>
+</div>
