@@ -7,6 +7,7 @@ import { switchMap } from 'rxjs/operators';
   templateUrl: './patient-detail.component.html',
   styleUrls: ['./patient-detail.component.css']
 })
+
 export class PatientDetailComponent implements OnInit {
   anamneza:Anamneza={osobna:"",rodinna:"",pracovna:""};
   patient:Patient;
@@ -93,6 +94,7 @@ export class PatientDetailComponent implements OnInit {
   }
 
 }
+
 export interface Patient {
   name: string;
   surname: string;
@@ -102,6 +104,7 @@ export interface Patient {
   tel:string;
   sex:string;
 }
+
 export interface Anamneza {
   osobna: string;
   pracovna: string;

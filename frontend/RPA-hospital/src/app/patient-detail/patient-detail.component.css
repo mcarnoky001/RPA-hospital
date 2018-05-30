@@ -37,3 +37,8 @@ float:right;
 .bottomDetail{
 	margin-bottom: 100px;
 }
+
+textarea{
+height:100px;
+font-size: 20px;
+}
