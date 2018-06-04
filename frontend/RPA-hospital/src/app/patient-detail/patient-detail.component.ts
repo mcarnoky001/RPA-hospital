@@ -88,7 +88,7 @@ export class PatientDetailComponent implements OnInit {
   ngOnInit() {
   	var patientId = this.route.snapshot.paramMap.get("id");
   	this.patient = this.patients.find(x=>x.idNo == patientId);
-  	this.anamneza.osobna="V detstve častejsie anginy.Operacie: appendektomia v r.1995, cholecystektomia v r.1998 pre lithiázu.Úrazy: autonehoda v r.2001 s frakturou levej stehennej kosti a osteosyntézou, v bezvedomí nebol, bez trvalých následkov.Návyky: fajciar 20 cigariet denne, fajci od 20 do 29 rokov, ked prezil infarkt myokardu a od tej doby nefajci. Káva 1x denne, alkohol iba príležitostne.";
+  	this.anamneza.osobna="V detstve častejšie anginy.Operacie: appendektomia v r.1995, cholecystektomia v r.1998 pre lithiázu.Úrazy: autonehoda v r.2001 s frakturou levej stehennej kosti a osteosyntézou, v bezvedomí nebol, bez trvalých následkov.Návyky: fajciar 20 cigariet denne, fajci od 20 do 29 rokov, ked prezil infarkt myokardu a od tej doby nefajci. Káva 1x denne, alkohol iba príležitostne.";
   	this.anamneza.pracovna="Pracovnik na Poste, denne prenasa tazke naklady.Prichadza do casteho styku s chorymi, je vystaveny vplyvom pocasia.";
   	this.anamneza.rodinna="matka sa lieči na astmu, otec prekonal meningitídu ako 5,5 ročný. Hypertenzia, diabetes mellitus, malígne ani pohlavné ochorenia v príbuzenstve nezistené. Súrodencov nemá.";
   }

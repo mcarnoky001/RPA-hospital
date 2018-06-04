@@ -1,3 +1,4 @@
+<meta charset="UTF-8">
 <div class="topDetail">
   <div class="row">
     <div class="col-md-3 imgColumnWrapper">
@@ -16,16 +17,16 @@
             <input id="surname" name="surname" ngModel matInput placeholder="Priezvisko">{{patient.surname}}
           </mat-form-field>
           <mat-form-field>
-            <input id="id" name="id" ngModel matInput placeholder="Rodne cislo">{{patient.idNo}}
+            <input id="id" name="id" ngModel matInput placeholder="Rodné číslo">{{patient.idNo}}
           </mat-form-field>
           <mat-form-field>
-            <input id="insurance" name="insurance" ngModel matInput placeholder="Poistovna">{{patient.insurance}}
+            <input id="insurance" name="insurance" ngModel matInput placeholder="Poisťovňa">{{patient.insurance}}
           </mat-form-field>
           <mat-form-field>
             <input id="address" name="address" ngModel matInput placeholder="Adresa">{{patient.address}}
           </mat-form-field>
           <mat-form-field>
-            <input id="number" name="number" ngModel matInput placeholder="Telefon">{{patient.tel}}
+            <input id="number" name="number" ngModel matInput placeholder="Telefón">{{patient.tel}}
           </mat-form-field>
         </div>
       </form>
@@ -37,16 +38,16 @@
     <div class="row">
       <div class="container">
         <mat-form-field style="margin-top: 5px;">
-          <textarea id="oa" matInput placeholder="osobna anamneza">{{anamneza.osobna}}</textarea>
+          <textarea id="oa" matInput placeholder="Osobná Anamnéza">{{anamneza.osobna}}</textarea>
         </mat-form-field>
         <mat-form-field>
-          <textarea id="pa" matInput placeholder="pracovna anamneza">{{anamneza.pracovna}}</textarea>
+          <textarea id="pa" matInput placeholder="Pracovná Anamnéza">{{anamneza.pracovna}}</textarea>
         </mat-form-field>
         <mat-form-field>
-          <textarea id="ra" matInput placeholder="rodinna anamneza">{{anamneza.rodinna}}</textarea>
+          <textarea id="ra" matInput placeholder="Rodinná Anamneza">{{anamneza.rodinna}}</textarea>
         </mat-form-field>
         <mat-form-field>
-          <textarea id="av" matInput placeholder="aktualne vysetrenia"></textarea>
+          <textarea id="av" matInput placeholder="Aktuálne Vyšetrenia"></textarea>
         </mat-form-field>
       </div>
     </div>
