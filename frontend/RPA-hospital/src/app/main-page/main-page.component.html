@@ -1,7 +1,8 @@
 <div class="searchWrapper">
   <mat-form-field>
-    <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Hladat">
+    <input id="searchInput" matInput #search placeholder="Hľadať">
   </mat-form-field>
+  <button id="filter" style="display: inline-block;" class="btn"(click)="applyFilter(search.value)" type="button">Filter</button>
 </div>
 <mat-table #table [dataSource]="dataSource">
   <!-- Position Column -->
